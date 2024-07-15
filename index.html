@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Font Awesome-->
+    <title>Viajeschile</title>
+    <script
+      src="https://kit.fontawesome.com/2d35188f5a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--styles-->
+    <link rel="stylesheet" href="assets/css/mains.css" />
+  </head>
+  <body class="bg-custom">
+  <!--Header -->
+  <header>
+    <!--Nav bar-->
+    <nav class="navbar navbar-expand-lg bg-transparent fixed-top" id="navbar">
+      <div class="container">
+        <a class="navbar-brand text-white d-flex gap-2" href="#">
+          <img
+            src="assets/img/logo.svg"
+            alt="logorueda"
+            width="50"
+            height="40"
+          />ViajesChile
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="#carousel"
+              style="color: white"
+              >Inicio</a
+            >
+            <a class="nav-link" href="#quienes-somos" style="color: white"
+              >Quienes Somos</a
+            >
+            <a class="nav-link" href="#destacados" style="color: white"
+              >Destacados</a
+            >
+            <a class="nav-link" href="#contact" style="color: white"
+              >Contacto</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+    <!--Carousel-->
+<div class="container">
+  <div class="row">
+<div class="col-12">
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</div>
+</div>
+  
+    <!--quienes-somos-->
+    <div class="mb-5 mt-5 container border-bottom border-white" id="quienes-somos">
+      <row>
+        <div class="col-12">
+          <h1 class="text-center">¿Quienes Somos?</h1>
+        </div>
+      </row>
+    </div>
+    <div class="container"id="quienes-somos">
+      <div class="row">
+        <div class="col-12 col-md-6 d-none d-sm-none d-md-block">
+          <img
+            src="assets/img/quienes-somos.jpg"
+            class="img-fluid rounded mb-5 mt-5"
+            alt="dev"
+          />
+        </div>
+        <div class="col-12 col-md-6">
+          <p class="text-start mb-5 mt-5">
+            Bienvenidos a ViajesChile, su puerta de entrada a las experiencias
+            más auténticas y emocionantes en Chile. Somos una agencia
+            especializada en crear itinerarios únicos que destacan la diversidad
+            natural y cultural de nuestro hermoso país. Desde las majestuosas
+            Torres del Paine en la Patagonia hasta los desiertos mágicos de
+            Atacama, ofrecemos paquetes personalizados para cada tipo de viajero
+          </p>
+          <p class="text-start mt-2">
+            Bienvenidos a ViajesChile, su puerta de entrada a las experiencias
+            más auténticas y emocionantes en Chile. Somos una agencia
+            especializada en crear itinerarios únicos que destacan la diversidad
+            natural y cultural de nuestro hermoso país. Desde las majestuosas
+            Torres del Paine en la Patagonia hasta los desiertos mágicos de
+            Atacama, ofrecemos paquetes personalizados para cada tipo de viajero
+          </p>
+        </div>
+      </div>
+    
+    <!--Destacados-->
+    <div class="container" id="destacados">
+      <div class="container mb-5 mt-5 text-center border-bottom border-white">
+        <h2>Destacados</h2>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="assets/img/card1.jpg"
+                  class="img-fluid rounded-start h-100"
+                  alt="..."
+                />
+               
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Region de los Lagos</h5>
+                  <p class="card-text">
+                    Desde las majestuosas Torres del Paine en la Patagonia hasta los desiertos mágicos de Atacama, ofrecemos paquetes personalizados para cada tipo de viajero
+                  </p>
+                  <div class="card-footer">
+                    <p>
+                    <span class="text-body-secondary">
+                    <span class="text-muted"><i class="fas fa-plane"></i> Vuelos desde:</span>
+                    <span class="card-link">159.990</span>
+                    </span>
+                  </p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="assets/img/card2.jpg"
+                  class="img-fluid rounded-start h-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Desierto de Atacama</h5>
+                  <p class="card-text">
+                    Desde las majestuosas Torres del Paine en la Patagonia hasta los desiertos mágicos de Atacama, ofrecemos paquetes personalizados para cada tipo de viajero
+                  </p>
+                  <div class="card-footer">
+                    <p>
+                    <span class="text-body-secondary">
+                    <span class="text-muted"><i class="fas fa-plane"></i> Vuelos desde:</span>
+                    <span class="card-link">159.990</span>
+                    </span>
+                  </p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="assets/img/card3.jpg"
+                  class="img-fluid rounded-start h-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Norte Grande</h5>
+                  <p class="card-text">
+                    Desde las majestuosas Torres del Paine en la Patagonia hasta los desiertos mágicos de Atacama, ofrecemos paquetes personalizados para cada tipo de viajero
+                  </p>
+                  <div class="card-footer">
+                    <p>
+                    <span class="text-body-secondary">
+                    <span class="text-muted"><i class="fas fa-plane"></i> Vuelos desde:</span>
+                    <span class="card-link">159.990</span>
+                    </span>
+                  </p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="assets/img/card4.jpg"
+                  class="img-fluid rounded-start h-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Bosque Magico</h5>
+                  <p class="card-text">
+                    Desde las majestuosas Torres del Paine en la Patagonia hasta los desiertos mágicos de Atacama, ofrecemos paquetes personalizados para cada tipo de viajero
+                  </p>
+                  <div class="card-footer">
+                    <p>
+                    <span class="text-body-secondary">
+                    <span class="text-muted"><i class="fas fa-plane"></i> Vuelos desde:</span>
+                    <span class="card-link">159.990</span>
+                    </span>
+                  </p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Testimonios-->
+    <div class="testimonios" id="testimonios">
+      <div class="testimonios__header container mb-5 mt-5 text-center border-bottom border-white">
+        <h2 class="testimonios__title">Testimonios</h2>
+      </div>
+      <div class="testimonios__content row ms-4 me-4" style="justify-content: center">
+        <div class="testimonios__item col-12 col-md-3">
+          <div class="testimonios__text text-center mt-2">
+            <p class="testimonios__description">
+              ChileViajes ofrece la combinación perfecta de naturaleza y cultura. Explora lo mejor de Chile con sus paquetes personalizados.
+            </p>
+            <img
+              src="assets/img/testimonio1.jpg"
+              class="testimonios__image"
+              alt="testimonio1"
+            />
+            <p class="testimonios__author">Mariela</p>
+          </div>
+        </div>
+        <div class="testimonios__item col-12 col-md-3">
+          <div class="testimonios__text text-center mt-2">
+            <p class="testimonios__description">
+              ChileViajes ofrece la combinación perfecta de naturaleza y cultura. Explora lo mejor de Chile con sus paquetes personalizados.
+            </p>
+            <img
+              src="assets/img/testimonio2.jpg"
+              class="testimonios__image"
+              alt="testimonio2"
+            />
+            <p class="testimonios__author">Christian</p>
+          </div>
+        </div>
+        <div class="testimonios__item col-12 col-md-3">
+          <div class="testimonios__text text-center mt-2">
+            <p class="testimonios__description">
+              ChileViajes ofrece la combinación perfecta de naturaleza y cultura. Explora lo mejor de Chile con sus paquetes personalizados.
+            </p>
+            <img
+              src="assets/img/testimonio3.jpg"
+              class="testimonios__image"
+              alt="testimonio3"
+            />
+            <p class="testimonios__author">Fernanda</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--footer-->
+    <div class="container mb-5" id="contact">
+      <div class="row mb-5 mt-5 border-bottom border-white">
+        <h2 class="text-center">Contacto</h2>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <form>
+            <div class="row">
+              <div class="col">
+                <label for="name-input" class="form-label"
+                  >Nombre
+                  <i class="fa-solid fa-circle-info" style="color: #ffffff" data-bs-toggle="tooltip" data-bs-placement="right"
+                  data-bs-title="Ingresa tu nombre completo"></i
+                ></label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Nombre"
+                  aria-label="name-input"
+                />
+              </div>
+              <div class="col">
+                <label for="email-input" class="form-label"
+                  >Email
+                  <i class="fa-solid fa-circle-info" style="color: #ffffff" data-bs-toggle="tooltip" data-bs-placement="right"
+                  data-bs-title="Ingresa tu email"></i
+                ></label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Email"
+                  aria-label="email-input"
+                />
+              </div>
+            </div>
+            <div class="button mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Mensaje
+                <i class="fa-solid fa-circle-info" style="color: #ffffff" data-bs-toggle="tooltip" data-bs-placement="right"
+                data-bs-title="envia tu mensaje"></i
+              ></label>
+              <label
+                for="exampleFormControlTextarea1"
+                class="form-label"
+              ></label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                placeholder="Mensaje"
+                rows="3"
+              ></textarea>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="termsCheck" />
+              <label class="form-check-label mb-3" for="termsCheck">
+                Acepto los
+                <a
+                  href="terms-and-conditions.html"
+                  target="_blank"
+                  style="color: #ffffff"
+                  >términos y condiciones</a
+                >
+              </label>
+            </div>
+            <div clas="button">
+              <div id="liveAlertPlaceholder">
+<button type="button" class="btn btn-outline-light" id="liveAlertBtn">Enviar</button>
+            </div>
+            </div>
+          </form>
+        </div>
+
+          
+<!--contacto-->
+        <div class="col-12 col-md-6">
+          <ul class="list mt-5 ms-4 me-4">
+            <li>
+              <i class="fa-solid fa-phone" style="color: #ffffff"></i> +569 874
+              776 44
+            </li>
+            <li>
+              <i class="fa-regular fa-envelope" style="color: #ffffff"></i>
+              contacto@viajeschile.cl
+            </li>
+            <li>
+              <a href="https://www.linkedin.com" target="_blank"
+                ><i class="fa-brands fa-linkedin" style="color: #ffffff"></i
+              ></a>
+              ViajesChile
+            </li>
+            <li>
+              <a href="https:www.instagram.com" target="_blank"
+                ><i class="fa-brands fa-instagram" style="color: #ffffff"></i
+              ></a>
+              viajes_chile
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!--scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <!--cargamos scripts propios al final -->
+    <script type="module" src="assets/js/index.js"></script>
+  </body>
+</html>
